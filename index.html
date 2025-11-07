@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عيد ميلاد روان</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      font-family: 'Cairo', sans-serif;
+      overflow: hidden;
+      background: linear-gradient(135deg, #ffd1dc, #f9c5d1);
+    }
+
+    .overlay {
+      position: fixed;
+      top:0; left:0;
+      width:100%; height:100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      flex-direction: column;
+      color: #fff;
+      font-size: 2em;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .main-content {
+      display: none;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      text-align: center;
+      padding: 2em;
+      box-sizing: border-box;
+    }
+
+    .text-content {
+      font-size: 1.5em;
+      line-height: 2em;
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hearts {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .heart {
+      position: absolute;
+      font-size: 2em;
+      color: gold;
+      animation: floatUp linear infinite;
+    }
+
+    @keyframes floatUp {
+      0% { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      10% { opacity: 1; }
+      100% { transform: translateY(-10vh) scale(1); opacity: 0; }
+    }
+
+    footer {
+      margin-top: 2em;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- شاشة الترحيب -->
+  <div class="overlay" id="welcomeScreen">
+    اضغطي هنا يا روريتي 🥰
+  </div>
+
+  <!-- المحتوى الرئيسي -->
+  <div class="main-content" id="mainContent">
+    <div class="hearts" id="heartsContainer"></div>
+    <div class="text-content">
+      حبيبة قلبي كبرت سنة❤️<br>
+      كل عام و انتي عمري الهني🥰❤️❤️<br><br>
+
+      روريتي و دكتورة قلبي🥰🥰😍😍😍<br>
+      وحش النوم الخارق😒<br>
+      كل عام و انتي كل الخير و الهنا و السعادة بحياتي يا أجمل و اروع و اهنى ما وهبني الله🥰🥰🥰❤️❤️❤️💋💋<br>
+      كل عام و انتي السرور و البهجة بحياتي 🥰🥰❤️❤️❤️<br>
+      كل عام و انتي المستقبل و الأمال و مصدر الابتسامة لقلبي🥰🥰❤️❤️❤️<br>
+      كل عام و قلبي بيضحك معك انتي و بس🥰❤️❤️💋كل عام يا دكتورتي و دوايي و منسيني همومي❤️💋💋💋<br>
+      كل عام و انتي رفيقة الدرب و شريكة النجاح وان شاء الله نكفي هالعمر أيد بإيد❤️❤️🥰 و من نجاح لنجاح💋❤️ يا سبب نجاحي و تطوري و سعيي💋❤️❤️🥰🥰🥰🥰<br>
+      بحبك قد الكون كله يا داعمي و سندي و عشقي❤️❤️❤️❤️❤️<br>
+      بحبك قد الكون كله يا هنا هالروح و هالقلب❤️❤️❤️❤️❤️<br>
+      بحبك قد الكون كله يا فرحة هالعمر💋💋❤️❤️❤️❤️❤️<br>
+      بحبك على طول بحبك يا افضل حدا آمن فيي و شجعني بدون كلل او ملل🥰🥰❤️❤️❤️❤️❤️<br><br>
+
+      بحبك و رح ضل حبك تيخلص العمر يا مميزة قلبي و روحي و حياتي🥰🥰❤️❤️❤️❤️❤️<br>
+      شكرا ع وجودك بكل لحظة من عمري❤️❤️<br>
+      شكرا ع دعمك المستمر و اللطيف متلك❤️❤️❤️❤️<br>
+      شكرا ع تشجيعك و ثقتك ❤️❤️❤️❤️❤️<br>
+      شكرا ع كلشي يا روري❤️❤️❤️❤️<br><br>
+
+      شو محظوظ انا فيكي يا روح الروح🥰❤️❤️❤️❤️<br><br>
+
+      تن شاء الله سنينك الحايين أحلى من اللي مروا و ان شاء الله بفرح فيكي ع طول❤️❤️<br>
+      و بضل متل ما عودتيني اني كون فخور فيكي دائما❤️❤️❤️🥰🥰<br>
+      و ما عندي شك بهيك شي❤️❤️💋🥰<br><br>
+
+      ان شاء الله العيد الجاي منكون سوا و منحتفل سوا و مع بعض❤️❤️❤️💋💋🥰🥰🥰🥰<br><br>
+
+      بحبك 💋💋❤️❤️<br><br>
+
+      <footer>From Ali, with endless love ❤️</footer>
+    </div>
+  </div>
+
+  <!-- موسيقى خلفية -->
+  <audio id="bgMusic" src="https://cdn.pixabay.com/download/audio/2023/03/05/audio_6e0c6a5a43.mp3?filename=romantic-piano-14725.mp3" autoplay loop></audio>
+
+  <script>
+    const welcomeScreen = document.getElementById('welcomeScreen');
+    const mainContent = document.getElementById('mainContent');
+    const heartsContainer = document.getElementById('heartsContainer');// عند الضغط على شاشة الترحيب
+    welcomeScreen.addEventListener('click', () => {
+      welcomeScreen.style.display = 'none';
+      mainContent.style.display = 'block';
+      createHearts(30); // إنشاء 30 قلب
+    });
+
+    // وظيفة إنشاء القلوب
+    function createHearts(num) {
+      for(let i=0; i<num; i++) {
+        const heart = document.createElement('div');
+        heart.className = 'heart';
+        heart.style.left = Math.random() * 100 + 'vw';
+        heart.style.fontSize = (Math.random() * 2 + 1) + 'em';
+        heart.style.animationDuration = (Math.random() * 5 + 5) + 's';
+        heartsContainer.appendChild(heart);
+        heart.innerHTML = '❤️';
+      }
+    }
+  </script>
+
+</body>
+</html>
